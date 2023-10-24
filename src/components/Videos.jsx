@@ -12,7 +12,7 @@ const Videos = ({Videos , direction }) => {
     
   return (
     <Stack direction= { direction || "row"} flexWrap="wrap" justifyContent="center" gap={2} sx={{
-      ml: { xs: '7px' , md: '-42.5px' }
+      ml: { xs: '7px' , md: '0' }
     }} >
        
         {

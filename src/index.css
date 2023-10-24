@@ -67,6 +67,24 @@ a {
   transition: all 0.3s ease;
 }
 
+.skeleton{
+  animation: skelet 0.7s linear infinite alternate;
+}
+
+.skeleton-text{
+  height: 0.5rem;
+  width: 100%;
+}
+
+@keyframes skelet {
+  0%{
+        background-color: #cfc5c4;
+  }
+  100%{
+    background-color: #a19999;
+  }
+}
+
 @media screen and (max-width: 900px) {
   .category-btn{
     margin: 10px;
